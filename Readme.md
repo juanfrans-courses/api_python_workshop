@@ -27,24 +27,24 @@
 
 ### 3. Querying the API
 
-#### 1. Building the request
+#### A. Building the request
 1. Import library
 2. Build request (string)
 3. Submit request
 4. Get response
 
-#### 2. Parsing the response
+#### B. Parsing the response
 1. Import library
 2. Examine response
 3. Extract data from response
 
-#### 3. Importing base data
+#### C. Importing base data
 1. Open file
 2. Reading data from file
 3. Building multiple requests with data
 4. Handling errors
 5. Careful with API rate limits
 
-#### 4. Exporting data
+#### D. Exporting data
 1. Creating new file
 2. Writing data to new file
