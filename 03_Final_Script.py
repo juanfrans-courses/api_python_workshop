@@ -25,7 +25,7 @@ output = open('FoursquareVenues.csv', 'wb')
 output.write('Name\tLatitude\tLongitude\tCategory\tCheckins\n')
 
 # Building the request
-for point in baseList[1:5]:
+for point in baseList[1:]:
 	longitude = point[0]
 	latitude = point[1]
 	request = baseURL + 'll=' + str(latitude) + ',' + str(longitude) + '&oauth_token=' + token + '&v=' + str(version) + '&limit=' + str(limit)
@@ -50,7 +50,7 @@ for point in baseList[1:5]:
 		venueCheckins = venueStats['checkinsCount']
 		print venueName + ', ' + str(venueLat) + ', ' + str(venueLon) + ', ' + venueCat + ', ' + str(venueCheckins)
 		output.write(venueName + '\t' + str(venueLat) + '\t' + str(venueLon) + '\t' + venueCat + '\t' + str(venueCheckins) + '\n')
-	time.sleep(1)
+	time.sleep(0.5)
 
 output.close()
 

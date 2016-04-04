@@ -15,7 +15,6 @@
   * Windows:
     * [Canopy](https://www.enthought.com/products/canopy/)
     * [Anaconda](https://www.continuum.io/downloads)
-    * ??????????????????????
 * Overview of process and possible outcome
 * Talk about authorization process (token vs. 2 step OAuth)
 
