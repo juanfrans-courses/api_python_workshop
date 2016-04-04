@@ -1,7 +1,6 @@
 print 'Importing libraries...'
 from urllib2 import urlopen
 from json import load
-import codecs
 
 # Setting up global variables
 baseURL = 'https://api.foursquare.com/v2/venues/search?'

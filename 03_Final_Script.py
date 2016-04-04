@@ -1,7 +1,6 @@
 print 'Importing libraries...'
 from urllib2 import urlopen
 from json import load
-import codecs
 import csv
 import time
 
