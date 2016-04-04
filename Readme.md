@@ -4,8 +4,8 @@
 ### 1. Brief introduction to Python and APIs
 * Intro to APIs
 * Examples of things people do with APIs
-* Why Python?
-* Open a Foursquare developer account
+* Why Python? **Python 2.7 vs Python 3**
+* Open a Foursquare [developer account](https://developer.foursquare.com/)
 * Copy API key
 * Python IDE:
   * Mac:
@@ -13,14 +13,20 @@
     * [Sublime Text](https://www.sublimetext.com/)
     * [Canopy](https://www.enthought.com/products/canopy/)
   * Windows:
-    * [Canopy](https://www.enthought.com/products/canopy/) ?????????????????????
+    * [Canopy](https://www.enthought.com/products/canopy/)
+    * [Anaconda](https://www.continuum.io/downloads)
     * ??????????????????????
+* Overview of process and possible outcome
+* Talk about authorization process (token vs. 2 step OAuth)
 
 ### 2. Basic concepts of programming in Python
 * Functions
 * Variables:
   * Types of variables
-  * Operations between variables
+  * Operations between variables:
+    * Problems with combining certain kinds of variables together (ie. string + int or float)
+  * Global vs. local
+* Comments
 * Loops
 * Conditionals
 * Libraries
@@ -32,6 +38,7 @@
 2. Build request (string)
 3. Submit request
 4. Get response
+5. JSON format
 
 #### B. Parsing the response
 1. Import library
