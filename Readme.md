@@ -27,6 +27,7 @@
   * Global vs. local
 * Comments
 * Loops
+  * Indentation matters
 * Conditionals
 * Libraries
 
@@ -38,6 +39,7 @@
 3. Submit request
 4. Get response
 5. JSON format
+6. Handling errors (try/catch)
 
 #### B. Parsing the response
 1. Import library
@@ -48,8 +50,7 @@
 1. Open file
 2. Reading data from file
 3. Building multiple requests with data
-4. Handling errors
-5. Careful with API rate limits
+4. Careful with API rate limits
 
 #### D. Exporting data
 1. Creating new file
