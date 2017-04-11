@@ -10,6 +10,7 @@
 * Python IDE:
   * Mac:
     * Terminal
+    * [Atom](https://atom.io/)
     * [Sublime Text](https://www.sublimetext.com/)
     * [Canopy](https://www.enthought.com/products/canopy/)
   * Windows:

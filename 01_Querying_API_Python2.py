@@ -5,9 +5,9 @@ from json import load
 # Setting up global variables
 baseURL = 'https://api.foursquare.com/v2/venues/search?'
 lat = 40.7
-lon = 'jkgkj'
-token = 'your_token_here'
-version = 20160404
+lon = -74
+token = 'your token here'
+version = 20161016
 limit = 50
 
 # Building the request
