@@ -1,5 +1,5 @@
 # Querying APIs with Python
-*A workshop for the Art of Data Visualization conference at Columbia University, April 7th 2016. A project by Juan Francisco Saldarriaga (jfs2118@columbia.edu).*
+*A workshop for the Art of Data Visualization conference at Columbia University, 2016 and 2017. A project by Juan Francisco Saldarriaga (jfs2118@columbia.edu).*
 
 ### 1. Brief introduction to Python and APIs
 * Intro to APIs
